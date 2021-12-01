@@ -21,7 +21,7 @@ production_url : https://djeppschmidt.github.io/ProkaryoteGeneAnnotation_tutoria
 
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
-markdown: kramdown
+markdown: GFM
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -52,8 +52,7 @@ JB :
   #     This means always setting the protocol (http|https) or prefixing with "/"
   #
   # NOTE: Replace this next line with your own URL, likely with username.github.io
-  BASE_PATH : http://djeppschmidt.github.io/ProkaryoteGeneAnnotation_tutoria
-l
+  BASE_PATH : https://Djeppschmidt.github.io/ProkaryoteGeneAnnotation_tutorial
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
