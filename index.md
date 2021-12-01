@@ -5,10 +5,6 @@ tagline: Quick gene annotations using NCBI reference material
 description: Tutorial of how to use ProkaryoteGeneAnnotation to download and compile a reference dataset for predicting genes associated with 16S amplicon data.
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## INTRO
 
 This package is meant to facilitate downloading and summarizing the annotations of completed GenBank and RefSeq prokaryote genome assemblies. It also contains functionality to add gene annotations to a phyloseq object's taxonomy table; or to subset a phyloseq object to only taxa that contain a set of genes. This tool is not meant to approximate or infer metagenomes, though it operates on many of the same principles as other tools that do. Also, this was built to work on a macOS platform. Windows and Linux are not supported. If you want, you may fork the repository and add that functionality.
@@ -36,6 +32,7 @@ Click the filters dropdown menu on the upper right hand side of the data table. 
 Name this file whatever you want, and put it in whatever directory you want. In this example, it is named "prokaryote.csv"
 
 Import this file into R:
+
 ```{r, eval=FALSE}
 # import reference dataset:
 # refdir from https://www.ncbi.nlm.nih.gov/genome/browse#!/prokaryotes/
