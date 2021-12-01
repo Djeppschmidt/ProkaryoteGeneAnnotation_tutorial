@@ -21,7 +21,7 @@ production_url : https://Djeppschmidt.github.io/ProkaryoteGeneAnnotation_tutoria
 
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
-markdown: kramdown
+markdown: GFM
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
